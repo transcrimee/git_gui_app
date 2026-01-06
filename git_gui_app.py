@@ -7,7 +7,7 @@ import dearpygui.dearpygui as window
 import os
 import subprocess
 
-# Note this project is just for fun so keep working on it but it not priority
+# Note this project is just for fun so I keep working on it but it not priority
 
 prefix = "https://github.com/" # this is no longer being used but keep it just in case
 
@@ -54,4 +54,5 @@ window.create_viewport(title='Git GUI Application', width=900, height=900)
 window.setup_dearpygui()
 window.show_viewport()
 window.start_dearpygui()
+
 window.destroy_context()
